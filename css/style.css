@@ -144,8 +144,10 @@ body {
 
 .crop {
   width: 400px;
-  height: 400px;
+  height: 350px;
   overflow: hidden;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
 .img-dec {
