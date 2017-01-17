@@ -1,0 +1,158 @@
+/*
+Color Theme:
+https://color.adobe.com/Tech-Office-color-theme-23615/
+*/
+body {
+  font-family: "Roboto", sans-serif;
+  color: #595241;
+}
+
+.display-box {
+  min-height: 500px;
+  background-color: #B8AE9C;
+  border-top: 2px dotted #8A0917;
+}
+
+.name-link {
+  display: block;
+  background-color: green;
+  height: 0px;
+  width: 100%;
+  position: relative;
+  bottom: 50px;
+  margin: 0;
+}
+
+#panel1 {
+  padding-top: 100px;
+}
+
+#panel2 {
+  padding: 50px;
+  font-size: 30px;
+}
+
+#panel3 {
+  text-align: center;
+}
+
+#title {
+  font-size: 80px;
+  color: white;
+  text-shadow: 2px 2px gray;
+}
+
+#subtitle {
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px darkgray;
+}
+
+.portfolio-row {
+  margin-bottom: 10px;
+}
+
+.profile-link {
+  display: inline-block;
+  color: #595241;
+  background-color: #FFFFFF;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 4px;
+  margin: 5px;
+  text-align: center;
+}
+
+.profile-link:hover {
+  background-color: #595241;
+  text-decoration: none;
+  color: white;
+}
+
+#panel2-head {
+  font-size: 50px;
+}
+
+.title-break {
+  width: 50%;
+}
+
+.white-text {
+  color: white;
+}
+
+.navbar {
+  margin-bottom: 0;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: #595241;
+  border-radius: 0;
+  border: none;
+  color: white !important;
+}
+
+.navbar a {
+  background-color: #595241 !important;
+  color: #FFFFFF !important;
+}
+
+.navbar a:hover {
+  background-color: #766d57 !important;
+}
+
+.navbar li a:hover {
+  background-color: #766d57;
+}
+
+.navbar-toggle > span {
+  background-color: white !important;
+}
+
+.navbar-toggle {
+  background-color: #595241 !important;
+}
+
+.navbar-toggle:hover {
+  background-color: #766d57 !important;
+}
+
+#portfolio-head {
+  color: #595241;
+  font-size: 3em;
+}
+
+.portfolio-link {
+  display: inline-block;
+  margin: 10px;
+}
+
+.portfolio-img {
+  width: 200px;
+  margin: 10px;
+}
+
+.portfolio-link:hover .portfolio-img {
+  background-color: #8A0917;
+}
+
+.portfolio-img-label {
+  width: 200px;
+  margin: auto;
+  color: #595241;
+}
+
+.crop {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.img-dec {
+  margin: auto;
+  margin-top: 40px;
+}
+
+.crop img {
+  margin-left: -200px;
+}

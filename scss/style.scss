@@ -1,0 +1,189 @@
+/*
+Color Theme:
+https://color.adobe.com/Tech-Office-color-theme-23615/
+*/
+
+$brown: #595241;
+$gray: #B8AE9C;
+$white: #FFFFFF;
+$blue: #ACCFCC;
+$red: #8A0917;
+
+$font-roboto:'Roboto', sans-serif;
+
+// styles for page structure
+
+body {
+  font-family: $font-roboto;
+  color: $brown;
+}
+
+.display-box {
+  min-height: 500px;
+  background-color: $gray;
+  border-top: 2px dotted $red;
+}
+
+.name-link {
+  display: block;
+  background-color: green;
+  height: 0px;
+  width: 100%;
+  position: relative;
+  bottom: 50px;
+  margin: 0;
+}
+
+#panel1{
+  padding-top: 100px;
+}
+
+#panel2 {
+  padding: 50px;
+  font-size: 30px;
+}
+
+#panel3 {
+  text-align: center;
+}
+
+// intro styles
+
+#title {
+  font-size: 80px;
+  color: white;
+  text-shadow: 2px 2px gray;
+}
+
+#subtitle {
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px darkgray;
+}
+
+.profile-links-row {
+}
+
+.portfolio-row {
+  margin-bottom: 10px;
+}
+
+.profile-link {
+  display: inline-block;
+  color: $brown;
+  background-color: $white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 4px;
+  margin: 5px;
+  text-align: center;
+}
+
+.profile-link:hover {
+  background-color: $brown;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+#panel2-head {
+  font-size: 50px;
+  
+}
+
+.contact-text {
+  
+}
+
+.title-break {
+  width: 50%;
+}
+
+.white-text {
+  color: white;
+}
+
+// navbar styles
+// a lot of color styles need !important because they override
+// default boostrap styles
+.navbar {
+  margin-bottom: 0;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: $brown;
+  border-radius: 0;
+  border: none;
+  color: white !important;
+}
+.navbar a {
+  background-color: $brown !important;
+  color: $white !important;
+}
+
+.navbar a:hover {
+  background-color: lighten($brown, 10%) !important;
+}
+
+.navbar li a:hover {
+  background-color: lighten($brown, 10%);
+}
+
+.navbar-toggle > span {
+  background-color: white !important;
+}
+
+.navbar-toggle {
+  background-color: $brown !important;
+}
+
+.navbar-toggle:hover {
+  background-color: lighten($brown, 10%) !important;
+}
+
+
+// portfolio styles
+
+#portfolio-head {
+  color: $brown;
+  font-size: 3em;
+}
+
+.portfolio-link {
+  display: inline-block;
+  margin: 10px;
+}
+
+.portfolio-img {
+  width: 200px;
+  margin: 10px;
+}
+
+
+.portfolio-link:hover .portfolio-img{
+  background-color: $red;
+}
+
+.portfolio-img-label {
+  width: 200px;
+  margin: auto;
+  color: $brown;
+}
+
+// about styles
+
+.crop {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.img-dec {
+  margin: auto;
+  margin-top: 40px
+}
+
+.crop img {
+  margin-left: -200px;
+}
