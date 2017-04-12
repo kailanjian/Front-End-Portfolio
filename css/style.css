@@ -27,7 +27,7 @@ body {
   padding: 50px;
   font-size: 30px; }
 
-#panel3 {
+.portfolio-panel {
   text-align: center; }
 
 #title {
@@ -58,6 +58,10 @@ body {
   background-color: #595241;
   text-decoration: none;
   color: white; }
+
+.portfolio-sub {
+  margin-top: 3px;
+  font-size: 1.5em; }
 
 #panel2-head {
   font-size: 50px; }
